@@ -1,15 +1,15 @@
 {
-  "main.css": "/website/src/static/css/main.a9b85e95.chunk.css",
-  "main.js": "/website/src/static/js/main.f1e1f346.chunk.js",
-  "main.js.map": "/website/src/static/js/main.f1e1f346.chunk.js.map",
-  "runtime~main.js": "/website/src/static/js/runtime~main.299b1d5c.js",
-  "runtime~main.js.map": "/website/src/static/js/runtime~main.299b1d5c.js.map",
-  "static/js/2.bff19c49.chunk.js": "/website/src/static/js/2.bff19c49.chunk.js",
-  "static/js/2.bff19c49.chunk.js.map": "/website/src/static/js/2.bff19c49.chunk.js.map",
-  "static/js/3.d7f7bd74.chunk.js": "/website/src/static/js/3.d7f7bd74.chunk.js",
-  "static/js/3.d7f7bd74.chunk.js.map": "/website/src/static/js/3.d7f7bd74.chunk.js.map",
-  "index.html": "/website/src/index.html",
-  "precache-manifest.8057f45eb12ecc3efd2f6fcb382f4cba.js": "/website/src/precache-manifest.8057f45eb12ecc3efd2f6fcb382f4cba.js",
-  "service-worker.js": "/website/src/service-worker.js",
-  "static/css/main.a9b85e95.chunk.css.map": "/website/src/static/css/main.a9b85e95.chunk.css.map"
+  "main.css": "/website/src/index.js/static/css/main.a9b85e95.chunk.css",
+  "main.js": "/website/src/index.js/static/js/main.f1e1f346.chunk.js",
+  "main.js.map": "/website/src/index.js/static/js/main.f1e1f346.chunk.js.map",
+  "runtime~main.js": "/website/src/index.js/static/js/runtime~main.dba973cd.js",
+  "runtime~main.js.map": "/website/src/index.js/static/js/runtime~main.dba973cd.js.map",
+  "static/js/2.bff19c49.chunk.js": "/website/src/index.js/static/js/2.bff19c49.chunk.js",
+  "static/js/2.bff19c49.chunk.js.map": "/website/src/index.js/static/js/2.bff19c49.chunk.js.map",
+  "static/js/3.d7f7bd74.chunk.js": "/website/src/index.js/static/js/3.d7f7bd74.chunk.js",
+  "static/js/3.d7f7bd74.chunk.js.map": "/website/src/index.js/static/js/3.d7f7bd74.chunk.js.map",
+  "index.html": "/website/src/index.js/index.html",
+  "precache-manifest.42e9cd5aa4671a6b8472de3ddf430708.js": "/website/src/index.js/precache-manifest.42e9cd5aa4671a6b8472de3ddf430708.js",
+  "service-worker.js": "/website/src/index.js/service-worker.js",
+  "static/css/main.a9b85e95.chunk.css.map": "/website/src/index.js/static/css/main.a9b85e95.chunk.css.map"
 }
