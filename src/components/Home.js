@@ -1,15 +1,16 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import Cursor from "./Cursor";
-import Navbar from "./Navbar";
+
 import TypeWriter from './TypeWriter';
 import TaskBar from "./TaskBar";
+import Cursor from "./Cursor";
+import Navbar from "./Navbar";
 
 const Home = () => {
   
   const [cursorPos, setCursorPos] = useState({x:0, y:0});
 
-  // Check runs all the time to reset cursor position and add new message to 'typed' variables'
+  // Check runs all the time to reset cursor position
   useEffect(() => {
     const mousemove = (e) =>{
       setCursorPos({x: e.clientX, y: e.clientY});
@@ -28,6 +29,7 @@ const Home = () => {
       <TypeWriter/>
       <TaskBar/>
       <Cursor x={cursorPos.x} y={cursorPos.y}/>
+      
     </div>
     
     

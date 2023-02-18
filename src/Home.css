@@ -23,11 +23,12 @@ html, body, #root, .home, .App{
 
 /*Make the background fit the entire screen*/
 body{
-  background: url(/bg.png) no-repeat center center fixed; 
+  background: url(/public/bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 1;
 }
 
 /*Standard navbar tidying, I also like purple*/
@@ -39,8 +40,9 @@ body{
   height: 3em;
   position: relative;
   background-color: var(--purple);
-  opacity: 95%;
+  opacity: 0.95;
   justify-content:flex-start;
+  z-index: 2;
 }
 .navBar img{
   align-self: flex-start;
@@ -58,6 +60,7 @@ body{
   flex-direction: row;
   margin-left: 4.5em;
   height: 3em;
+  z-index: 2;
 }
 
 .navBar .navButton{
@@ -106,7 +109,7 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
-
+  z-index: 2;
 }
 .typist{
   color: var(--purple);
@@ -120,6 +123,7 @@ body{
 /*This styling is for the taskbar*/
 .taskBar{
   height: 3.8em;
+  z-index: 2;
 }
 .botBar{
   display: inline;
@@ -128,6 +132,7 @@ body{
   justify-content: flex-end;
   height: 10%;
   align-self: flex-end;
+  z-index: 2;
 }
 
 .botBar .botButton img{
@@ -173,12 +178,15 @@ appropriated from: https://codepen.io/nxworld/pen/ZYNOBZ*/
 /*This css is for the moving cursor animation, adapted from this youtube video: https://www.youtube.com/watch?v=vcQ6_8L-6-Q*/
 .cursor{
   position: absolute;
+  flex-basis: 0;
+  overflow: hidden;
   width: 20px;
   height: 20px;
   border: 2px solid #fce5e5;
-  opacity: 50%;
+  opacity: 0.5;
   border-radius: 50%;
   transition: 0.1s;
   transform: translate(-50%, -50%);
   pointer-events: none;
+  z-index: 2;
 }
