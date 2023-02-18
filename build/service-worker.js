@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "http//marianderias.github.io/marianderias.github.io/precache-manifest.525e36102a7e668141e8cb887ec65836.js"
+  "http//marianderias.github.io/website/precache-manifest.665237b035668f39e72bc40bcb38fb2a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("http//marianderias.github.io/marianderias.github.io/index.html", {
+workbox.routing.registerNavigationRoute("http//marianderias.github.io/website/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
