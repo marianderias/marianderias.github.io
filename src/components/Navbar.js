@@ -1,17 +1,23 @@
-import NavButton from "./NavButton.js";
-import React from 'react';
+import "./navBar.css"
+import "./navButton.css"
+
+import logo from "./resources/md-logo-white.png";
+import resume from "./resources/Marian Derias Resume.pdf";
 
 const Navbar = () => {
   return (
     <nav className="navBar">
-      <img src="/public/my face.jpg" alt="Marian Derias"/>
-      <div className="buttonBar">
-        <NavButton name="Home"/>
-        <div className="navButton"><a href="/public/Marian Derias Resume.pdf" download><button>Download my Resumé</button></a></div>
+      <div className="navHome">
+        <a href=".">{<img alt="MD logo" src={logo} />}</a>
+      </div>
+
+      <div className="navButton">
+        <a href={resume} download>
+          <button>Resumé Download</button>
+        </a>
       </div>
     </nav>
-    
-  )
-}
+  );
+};
 
 export default Navbar;

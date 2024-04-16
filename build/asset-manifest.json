@@ -1,15 +1,20 @@
 {
-  "main.css": "/website/static/css/main.52513dc4.chunk.css",
-  "main.js": "/website/static/js/main.375bd74e.chunk.js",
-  "main.js.map": "/website/static/js/main.375bd74e.chunk.js.map",
-  "runtime~main.js": "/website/static/js/runtime~main.b54eafdb.js",
-  "runtime~main.js.map": "/website/static/js/runtime~main.b54eafdb.js.map",
-  "static/js/2.bff19c49.chunk.js": "/website/static/js/2.bff19c49.chunk.js",
-  "static/js/2.bff19c49.chunk.js.map": "/website/static/js/2.bff19c49.chunk.js.map",
-  "static/js/3.d7f7bd74.chunk.js": "/website/static/js/3.d7f7bd74.chunk.js",
-  "static/js/3.d7f7bd74.chunk.js.map": "/website/static/js/3.d7f7bd74.chunk.js.map",
-  "index.html": "/website/index.html",
-  "precache-manifest.7d2d1e87dae6a103a3fdf4b4a3ccec9e.js": "/website/precache-manifest.7d2d1e87dae6a103a3fdf4b4a3ccec9e.js",
-  "service-worker.js": "/website/service-worker.js",
-  "static/css/main.52513dc4.chunk.css.map": "/website/static/css/main.52513dc4.chunk.css.map"
+  "files": {
+    "main.css": "/static/css/main.5d035a45.css",
+    "main.js": "/static/js/main.7bea13ad.js",
+    "static/js/453.73e9e171.chunk.js": "/static/js/453.73e9e171.chunk.js",
+    "static/media/Marian Derias Resume.pdf": "/static/media/Marian Derias Resume.1ee15b74f99fbeeca2db.pdf",
+    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.3bd71e4493358b7843f2.png",
+    "static/media/github_logo.png": "/static/media/github_logo.f61288ca3a7bd33ed5d8.png",
+    "static/media/md-logo-white.png": "/static/media/md-logo-white.e4a46df3ae8fdaa3b651.png",
+    "static/media/facebook_logo.png": "/static/media/facebook_logo.759623a852c1efb99118.png",
+    "index.html": "/index.html",
+    "main.5d035a45.css.map": "/static/css/main.5d035a45.css.map",
+    "main.7bea13ad.js.map": "/static/js/main.7bea13ad.js.map",
+    "453.73e9e171.chunk.js.map": "/static/js/453.73e9e171.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d035a45.css",
+    "static/js/main.7bea13ad.js"
+  ]
 }

@@ -1,1 +1,6 @@
-Thank you for looking at my website! I'm planning to expand this in the future with a page to send me an email, more interactive ways to show my projects, and whatever else! Keen!
+This is a react app. Please visit the website at https://marianderias.github.io/website/
+
+If running locally, please run `npm start`.
+
+Format with prettier using `npx prettier . --write`.
+Check with `npx prettier . --check`.

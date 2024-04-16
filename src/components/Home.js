@@ -1,40 +1,56 @@
-import React from 'react';
-import {useState, useEffect} from 'react';
+import "./Home.css"
+import { useState, useEffect } from "react";
+import { useWindowDimensions } from 'react-native';
 
-import TypeWriter from './TypeWriter';
+import Waves from "./Waves";
+import TypeWriter from "./TypeWriter";
 import TaskBar from "./TaskBar";
 import Cursor from "./Cursor";
 import Navbar from "./Navbar";
 
+export const CURSOR_WIDTH = 12;
+
 const Home = () => {
-  
-  const [cursorPos, setCursorPos] = useState({x:0, y:0});
+  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+  const {height, width} = useWindowDimensions();
+
+  const mousemove = (e) => {
+    var xPos = e.clientX;
+    var yPos = e.clientY;
+    console.log("xpos: " + xPos + ", ypos: " + yPos);
+    if (xPos + CURSOR_WIDTH > width) {
+      xPos = width - CURSOR_WIDTH;
+    } else if (xPos - CURSOR_WIDTH < 0) {
+      xPos = CURSOR_WIDTH;
+    }
+
+    if (yPos + CURSOR_WIDTH > height) {
+      yPos = height - CURSOR_WIDTH;
+    } else if (yPos - CURSOR_WIDTH < 0) {
+      yPos = CURSOR_WIDTH;
+    }
+
+    setCursorPos({ x: xPos, y: yPos });
+  };
 
   // Check runs all the time to reset cursor position
   useEffect(() => {
-    const mousemove = (e) =>{
-      setCursorPos({x: e.clientX, y: e.clientY});
-    }
-    
-    window.addEventListener('mousemove', mousemove);
-    
-    return() => {
-      window.removeEventListener('mousemove', mousemove);
-    }
-  })
+    window.addEventListener("mousemove", mousemove);
+
+    return () => {
+      window.removeEventListener("mousemove", mousemove);
+    };
+  });
 
   return (
     <div className="home">
+      <Waves />
       <Navbar />
-      <TypeWriter/>
-      <TaskBar/>
-      <Cursor x={cursorPos.x} y={cursorPos.y}/>
-      
+      <TypeWriter />
+      <TaskBar />
+      <Cursor x={cursorPos.x} y={cursorPos.y} />
     </div>
-    
-    
   );
- 
-}
+};
 
 export default Home;

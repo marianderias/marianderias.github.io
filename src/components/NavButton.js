@@ -1,12 +1,10 @@
-import React from 'react';
 
-const NavButton = ({name, clickLink}) => {
+const NavButton = ({ link, child }) => {
   return (
     <div className="navButton">
-      <a href={clickLink} ><button> {name} </button></a>
+      <a href={link}>{child}</a>
     </div>
-  )
-}
+  );
+};
 
 export default NavButton;
-

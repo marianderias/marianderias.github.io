@@ -1,0 +1,21 @@
+/*Animation for hovering over the social media sites 
+appropriated from: https://codepen.io/nxworld/pen/ZYNOBZ*/
+.botButton img {
+    object-fit: scale-down;
+    max-height: 2.5em;
+    max-width: auto;
+    height: auto;
+    margin-right: 1.5em;
+  }
+  
+  .botButton img {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+  
+  .botButton:hover img {
+    -webkit-transform: rotate(5deg) scale(1.4);
+    transform: rotate(5deg) scale(1.4);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}

@@ -1,1 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
 
+/*Defining base variables*/
+:root {
+  --accent-purple: #641f6de5;
+  --bg-black: rgba(0, 0, 0, 0.904);
+  --pink: #ddb1d0;
+}
+
+/*Making the home element fit across the entire screen*/
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+  cursor: none;
+}
+
+body {
+  background-color: var(--bg-black);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
