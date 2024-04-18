@@ -1,6 +1,5 @@
-
-.centre{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;   
+.centre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

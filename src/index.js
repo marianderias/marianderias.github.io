@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import TagManager from 'react-gtm-module';
+import TagManager from "react-gtm-module";
 
-TagManager.initialize({ gtmId: 'G-DYNN0X06V9' });
+TagManager.initialize({ gtmId: "G-DYNN0X06V9" });
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);

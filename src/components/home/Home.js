@@ -6,7 +6,6 @@ import TaskBar from "../shared/TaskBar";
 import Navbar from "../shared/Navbar";
 
 const Home = () => {
-
   return (
     <div className="home">
       <Waves />

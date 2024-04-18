@@ -1,4 +1,4 @@
-import "./botButton.css"
+import "./botButton.css";
 
 /*Buttons at the bottom of the home page */
 const BottomButton = ({ image, clickLink }) => {

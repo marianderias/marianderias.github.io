@@ -1,15 +1,14 @@
 /*This css is for the moving cursor animation, adapted from this youtube video: https://www.youtube.com/watch?v=vcQ6_8L-6-Q*/
 .cursor {
-    position: absolute;
-    flex-basis: 0;
-    overflow: hidden;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #fce5e5;
-    opacity: 0.5;
-    border-radius: 50%;
-    transition: 0.1s;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-  }
-  
+  position: absolute;
+  flex-basis: 0;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fce5e5;
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}

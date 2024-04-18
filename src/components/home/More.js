@@ -1,6 +1,6 @@
 import arrow from "../resources/transparent_arrow.png";
 import { Link } from "react-router-dom";
-import "./more.css"
+import "./more.css";
 
 const More = () => {
   return (

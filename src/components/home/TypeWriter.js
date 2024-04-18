@@ -1,4 +1,4 @@
-import "./typeWriter.css"
+import "./typeWriter.css";
 import { TypeAnimation } from "react-type-animation";
 
 const TypeWriter = () => {
