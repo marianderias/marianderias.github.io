@@ -24,7 +24,7 @@ const TaskBar = () => {
           marianderias@gmail.com
         </a>
       </div>
-      <p>Call: 0430927893</p>
+      <p>Phone: 0430927893</p>
     </div>
   );
 };

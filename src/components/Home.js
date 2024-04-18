@@ -11,8 +11,9 @@ import Navbar from "./Navbar";
 export const CURSOR_WIDTH = 12;
 
 const Home = () => {
-  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
-  const {height, width} = useWindowDimensions();
+  const { height, width } = useWindowDimensions();
+  const [cursorPos, setCursorPos] = useState({ x: width/2, y: height/3 });
+
 
   const mousemove = (e) => {
     var xPos = e.clientX;
