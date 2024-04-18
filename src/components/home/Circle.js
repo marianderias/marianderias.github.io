@@ -1,6 +1,6 @@
-import "./wave.css";
+import "./circle.css";
 
-const Waves = () => {
+const Circle = () => {
   return (
     <div className="ball">
       <div className="gradient"></div>
@@ -8,4 +8,4 @@ const Waves = () => {
   );
 };
 
-export default Waves;
+export default Circle;

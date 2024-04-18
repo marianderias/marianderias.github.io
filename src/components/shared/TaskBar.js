@@ -1,8 +1,8 @@
 import "./taskbar.css";
 import BottomButton from "./BottomButton";
-import gitLogo from "./resources/github_logo.png";
-import fbLogo from "./resources/facebook_logo.png";
-import linkedLogo from "./resources/linkedin_logo.png";
+import gitLogo from "../resources/github_logo.png";
+import fbLogo from "../resources/facebook_logo.png";
+import linkedLogo from "../resources/linkedin_logo.png";
 
 const TaskBar = () => {
   return (
@@ -20,9 +20,7 @@ const TaskBar = () => {
       </div>
       <div>
         <p>Email: </p>
-        <a href="mailto:marianderias@gmail.com">
-          marianderias@gmail.com
-        </a>
+        <a href="mailto:marianderias@gmail.com">marianderias@gmail.com</a>
       </div>
       <p>Phone: 0430927893</p>
     </div>

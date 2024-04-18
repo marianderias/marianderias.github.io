@@ -1,0 +1,21 @@
+.more {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.more p {
+  color: white;
+}
+
+.moreArrow img {
+    margin-left: 1em;
+  object-fit: scale-down;
+  max-height: 2em;
+  max-width: auto;
+  height: auto;
+}
+
+.more a {
+  cursor: none;
+}
