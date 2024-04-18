@@ -1,4 +1,4 @@
-This is a react app. Please visit the website at https://marianderias.github.io/website/
+This is a react app. Please visit the website at https://marianderias.github.io/resume/
 
 If running locally, please run `npm start`.
 
