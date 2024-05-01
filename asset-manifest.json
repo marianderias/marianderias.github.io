@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.da1ff9ad.css",
-    "main.js": "/resume/static/js/main.17dadb86.js",
+    "main.css": "/resume/static/css/main.b8c646b0.css",
+    "main.js": "/resume/static/js/main.a5ea1125.js",
     "static/js/453.73e9e171.chunk.js": "/resume/static/js/453.73e9e171.chunk.js",
-    "static/media/Marian Derias Resume.pdf": "/resume/static/media/Marian Derias Resume.1ee15b74f99fbeeca2db.pdf",
+    "static/media/Marian Derias.pdf": "/resume/static/media/Marian Derias.6d54a852fb3ef7e4b1a1.pdf",
     "static/media/linkedin_logo.png": "/resume/static/media/linkedin_logo.3bd71e4493358b7843f2.png",
     "static/media/github_logo.png": "/resume/static/media/github_logo.f61288ca3a7bd33ed5d8.png",
     "static/media/md-logo-white.png": "/resume/static/media/md-logo-white.e4a46df3ae8fdaa3b651.png",
     "static/media/facebook_logo.png": "/resume/static/media/facebook_logo.759623a852c1efb99118.png",
-    "static/media/transparent_arrow.png": "/resume/static/media/transparent_arrow.798d636e558d711af7e4.png",
+    "static/media/usyd.png": "/resume/static/media/usyd.7c57fed0402ac8c44028.png",
+    "static/media/mongodb.png": "/resume/static/media/mongodb.eb04c3ab6988ab7f5e9c.png",
     "index.html": "/resume/index.html",
-    "main.da1ff9ad.css.map": "/resume/static/css/main.da1ff9ad.css.map",
-    "main.17dadb86.js.map": "/resume/static/js/main.17dadb86.js.map",
+    "main.b8c646b0.css.map": "/resume/static/css/main.b8c646b0.css.map",
+    "main.a5ea1125.js.map": "/resume/static/js/main.a5ea1125.js.map",
     "453.73e9e171.chunk.js.map": "/resume/static/js/453.73e9e171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1ff9ad.css",
-    "static/js/main.17dadb86.js"
+    "static/css/main.b8c646b0.css",
+    "static/js/main.a5ea1125.js"
   ]
 }
