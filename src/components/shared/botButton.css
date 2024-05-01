@@ -3,7 +3,6 @@ appropriated from: https://codepen.io/nxworld/pen/ZYNOBZ*/
 .botButton img {
   object-fit: scale-down;
   max-height: 2.5em;
-  max-width: auto;
   height: auto;
   margin-right: 1.5em;
 }

@@ -1,16 +1,13 @@
-.linksBar {
-  display: inline;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  height: 10%;
-  align-self: flex-end;
-}
 
 .taskBar {
-  margin: 0 0 1em 0.5em;
   height: 3.8em;
-  position: relative;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 100%;
 }
 
 .taskBar p {

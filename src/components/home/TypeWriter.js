@@ -2,7 +2,7 @@ import "./typeWriter.css";
 import { TypeAnimation } from "react-type-animation";
 
 const TypeWriter = () => {
-  // These are the strings I'm using for the type writing in the middle of the screen. 'The react-type animation module' I'm using does not allow these to be changed.
+  // Array of string to be typed followed by duration
   const typed = [
     "Programmer",
     2000,

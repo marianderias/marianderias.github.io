@@ -13,7 +13,8 @@
   --size: 250px;
   --speed: 50s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
-
+  position: absolute;
+  top: 2em;
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
@@ -29,7 +30,6 @@
 }
 
 .ball {
-  background-color: #222;
   position: absolute;
   inset: 0;
   display: flex;

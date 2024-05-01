@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.adfadea7.css",
-    "main.js": "/resume/static/js/main.485b65b0.js",
+    "main.css": "/resume/static/css/main.da1ff9ad.css",
+    "main.js": "/resume/static/js/main.17dadb86.js",
     "static/js/453.73e9e171.chunk.js": "/resume/static/js/453.73e9e171.chunk.js",
     "static/media/Marian Derias Resume.pdf": "/resume/static/media/Marian Derias Resume.1ee15b74f99fbeeca2db.pdf",
     "static/media/linkedin_logo.png": "/resume/static/media/linkedin_logo.3bd71e4493358b7843f2.png",
     "static/media/github_logo.png": "/resume/static/media/github_logo.f61288ca3a7bd33ed5d8.png",
     "static/media/md-logo-white.png": "/resume/static/media/md-logo-white.e4a46df3ae8fdaa3b651.png",
     "static/media/facebook_logo.png": "/resume/static/media/facebook_logo.759623a852c1efb99118.png",
+    "static/media/transparent_arrow.png": "/resume/static/media/transparent_arrow.798d636e558d711af7e4.png",
     "index.html": "/resume/index.html",
-    "main.adfadea7.css.map": "/resume/static/css/main.adfadea7.css.map",
-    "main.485b65b0.js.map": "/resume/static/js/main.485b65b0.js.map",
+    "main.da1ff9ad.css.map": "/resume/static/css/main.da1ff9ad.css.map",
+    "main.17dadb86.js.map": "/resume/static/js/main.17dadb86.js.map",
     "453.73e9e171.chunk.js.map": "/resume/static/js/453.73e9e171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adfadea7.css",
-    "static/js/main.485b65b0.js"
+    "static/css/main.da1ff9ad.css",
+    "static/js/main.17dadb86.js"
   ]
 }

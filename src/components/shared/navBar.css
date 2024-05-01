@@ -24,56 +24,18 @@
   cursor: none;
 }
 
-/*Standard navbar tidying. I also like purple*/
 .navBar {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
   width: 100%;
   height: 3em;
   opacity: 85%;
+  z-index: 1;
 }
 
 .navBar:hover {
   background-color: var(--accent-purple);
   transition: background-color 1s;
-}
-
-.navButton {
-  width: 10%;
-  height: 100%;
-  text-align: justify;
-}
-
-.navButton button {
-  color: whitesmoke;
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-color: transparent;
-  background-color: transparent;
-  font-size: 1em;
-}
-
-.navButton {
-  display: inline-block;
-  position: relative;
-}
-
-.navButton::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--pink);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-/*Underline animation from: https://www.30secondsofcode.org/css/s/hover-underline-animation/*/
-.navButton:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }

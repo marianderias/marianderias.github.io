@@ -2,7 +2,6 @@
   width: 10%;
   height: 100%;
   text-align: justify;
-  position: relative;
 }
 
 .navButton button {
@@ -13,6 +12,12 @@
   border-color: transparent;
   background-color: transparent;
   font-size: 1em;
+}
+
+.navButton {
+  display: inline-block;
+  position: relative;
+  margin-right: 1em;
 }
 
 .navButton::after {

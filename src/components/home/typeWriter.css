@@ -1,10 +1,11 @@
 /*Styling for the words in the middle; the component 'TypeWriter'*/
 .typeWriter h1 {
   display: inline;
+  font-size: 3em;
 }
 
 .typeWriter {
-  align-self: center;
+  margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,7 +13,7 @@
 }
 
 .typist {
-  color: #45164be5;
+  color: #9d5da5e5;
   font-size: xx-large;
   font-weight: bolder;
 }

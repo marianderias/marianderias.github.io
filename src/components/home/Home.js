@@ -1,16 +1,19 @@
 import "./Home.css";
-
-import Centre from "./Centre";
-import Waves from "./Circle";
+import Circle from "./Circle";
 import TaskBar from "../shared/TaskBar";
 import Navbar from "../shared/Navbar";
+import TypeWriter from "./TypeWriter";
+import Resume from "./Resume";
 
 const Home = () => {
   return (
     <div className="home">
-      <Waves />
       <Navbar />
-      <Centre />
+      <div className="intro">
+        <Circle />
+        <TypeWriter />
+      </div>
+      <Resume />
       <TaskBar />
     </div>
   );

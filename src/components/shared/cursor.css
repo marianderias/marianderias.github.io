@@ -1,6 +1,6 @@
 /*This css is for the moving cursor animation, adapted from this youtube video: https://www.youtube.com/watch?v=vcQ6_8L-6-Q*/
 .cursor {
-  position: absolute;
+  position: fixed;
   flex-basis: 0;
   overflow: hidden;
   width: 20px;
